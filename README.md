@@ -1,16 +1,113 @@
-# React + Vite
+# NOVA - AI-Powered Productivity Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NOVA is a modern, responsive SaaS landing page designed for a fictional AI-powered productivity platform. The website presents NOVA as an intelligent workspace that helps teams manage projects, automate repetitive workflows, collaborate efficiently, and improve productivity.
 
-Currently, two official plugins are available:
+The project was developed as a Front-End Development Intern assignment with a focus on responsive UI design, reusable React components, interactive functionality, accessibility, and clean code organization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://nova-landing-page-xi.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+https://github.com/krishnataneja2006/nova-landing-page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### Core Sections
+
+- Responsive navigation bar
+- Hero section with product dashboard preview
+- Trusted-by company logos section
+- Features section with 8 product features
+- Product/About section
+- How It Works section
+- Animated statistics section
+- Solutions / Use Cases section
+- Testimonials section
+- Pricing section with 3 pricing plans
+- Monthly / Annual pricing toggle
+- FAQ section with accordion interaction
+- Final call-to-action section
+- Footer with navigation links
+- Newsletter subscription form
+
+### Interactive Features
+
+- Mobile hamburger navigation
+- Smooth scrolling navigation
+- FAQ accordion
+- Pricing monthly/annual toggle
+- Dark / Light mode
+- Animated statistics
+- Scroll reveal animations
+- Demo modal
+- Back-to-top button
+- Newsletter email validation
+- Hover effects on buttons and cards
+- Responsive layouts for desktop, tablet, and mobile
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Git
+- GitHub
+- Vercel
+
+---
+
+## 🎨 Design Approach
+
+The design follows a modern SaaS landing-page style with a clean and minimal visual language.
+
+### Design choices
+
+- Purple accent color to create a modern technology-focused identity
+- Large typography for strong visual hierarchy
+- Card-based layouts for features, solutions, testimonials, and pricing
+- Rounded corners and subtle shadows for a modern interface
+- Dashboard-style product preview in the hero section
+- Consistent spacing and typography throughout the page
+- Responsive layouts using CSS media queries
+- Dark mode for an additional visual experience
+- Smooth animations to improve user engagement without being distracting
+
+The overall goal was to make the interface feel polished, professional, and suitable for a modern productivity SaaS product.
+
+---
+
+## 🧩 Component Structure
+
+The project is organized into reusable React components.
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── TrustedBy.jsx
+│   ├── Features.jsx
+│   ├── About.jsx
+│   ├── HowItWorks.jsx
+│   ├── Statistics.jsx
+│   ├── Solutions.jsx
+│   ├── Testimonials.jsx
+│   ├── Pricing.jsx
+│   ├── FAQ.jsx
+│   ├── CTA.jsx
+│   ├── Footer.jsx
+│   └── ScrollReveal.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
